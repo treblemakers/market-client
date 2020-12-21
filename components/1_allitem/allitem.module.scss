@@ -1,0 +1,21 @@
+.item2{
+    padding: 10px;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+}
+
+@media screen and (max-width: 768px){
+    .item2{
+        grid-template-columns: 1fr 1fr;        
+    }
+}
+
+@media screen and (max-width: 375px){
+    .item2{
+        background-color: rgb(9, 255, 0);
+        grid-template-columns: 1fr;        
+    }
+}
